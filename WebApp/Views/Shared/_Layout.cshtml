@@ -1,0 +1,82 @@
+﻿<!doctype html>
+<html class="no-js" lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>公司</title>
+    <meta name="description" content="公司。" />
+    @*<meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">*@
+    <meta name="format-detection" content="telephone=no">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="alternate icon" type="image/png" href="/favicon.png">
+    <script type="text/javascript">
+
+    if(/AppleWebKit.*mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){
+
+    if(window.location.href.indexOf("?mobile")<0){
+
+        try{
+
+            if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){
+
+                window.location.href="/Wap/Index";
+
+            }else if(/iPad/i.test(navigator.userAgent)){
+
+                window.location.href="http://www.baidu.com/pad";
+
+            }else{
+
+                window.location.href="http://www.baidu.com/wap"
+
+            }
+
+        }catch(e){}
+
+        }
+
+    }
+
+    </script>
+    @Styles.Render("~/Content/amazeui.min.css")
+    @Styles.Render("~/Content/style.css")
+    @Styles.Render("~/Content/amazeui.magnifier.min.css")
+    @Scripts.Render("~/bundles/modernizr")
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.js"></script>
+
+    <![endif]-->
+</head>
+<body>
+    @RenderBody()
+</body>
+<!--[if lt IE 9]>
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="views/IMJ2V2/js/polyfill/rem.min.js"></script>
+<script src="views/IMJ2V2/js/polyfill/respond.min.js"></script>
+<script src="views/IMJ2V2/js/amazeui.legacy.js"></script>
+<![endif]-->
+@Scripts.Render("~/Scripts/jquery.min.js")
+@Scripts.Render("~/Scripts/echo.min.js")
+<!--[if (gte IE 9)|!(IE)]><!-->
+
+@Scripts.Render("~/Scripts/amazeui.min.js")
+<!--<![endif]-->
+@Scripts.Render("~/Scripts/jquery.qrcode.min.js")
+@Scripts.Render("~/Scripts/amazeui.magnifier.min.js")
+<script>
+    $(function () {
+        $(".sm-img").hover(function () {
+            $(this).closest("li").find(".big-div").show();
+        }, function () {
+            $(".big-div").hide();
+        })
+    });
+</script>
+</html>
+

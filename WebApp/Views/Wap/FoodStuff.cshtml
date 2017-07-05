@@ -1,0 +1,338 @@
+﻿@{
+    Layout = "~/Views/Shared/_WapLayout.cshtml";
+}
+
+@*<header class="am-topbar header">
+    <div class="am-container-1">
+        <div class="left hw-logo">
+            <img class=" logo" src="img/HENGWANG.png"></img>
+            <img class="word" src="img/hw-word.png"></img>
+        </div>
+        <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only"
+                data-am-collapse="{target: '#doc-topbar-collapse'}">
+            <span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span>
+        </button>
+        <div class="am-collapse am-topbar-collapse right" id="doc-topbar-collapse">
+
+            <div class=" am-topbar-left am-form-inline am-topbar-right" role="search">
+                <ul class="am-nav am-nav-pills am-topbar-nav hw-menu">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="solutions.html">解决方案</a></li>
+                    <li><a href="product-show.html">产品展示 </a></li>
+                    <li><a href="customer-case.html">客户案例</a></li>
+                    <li><a href="service-center.html">服务中心 </a></li>
+                    <li><a href="news.html">新闻动态 </a></li>
+                    <li class="hw-menu-active"><a href="about-us.html">关于我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>*@
+
+<header class=" header">
+    <div class="am-container-1">
+        <div class="left hw-logo">
+            <img src="~/Assert/WapImages/register/tel.png" style=" vertical-align:top; margin-top:10px;"  />
+        </div>
+        <img src="~/Assert/WapImages/register/tel.png" class="am-topbar-toggle" style=" vertical-align:top;margin-top:10px;" />
+    </div>
+</header>
+<header class=" header2">
+    <div class="am-container-1">
+        <div class="left hw-logo">
+            <img src="~/Assert/WapImages/register/btn_home.png" width="32" style=" vertical-align:top; margin-top:10px;" />
+        </div>
+        <img src="~/Assert/WapImages/register/btn_menu.png" class="am-topbar-toggle" data-am-offcanvas="{target: '#doc-topbar-collapse'}" width="32" style=" vertical-align:top;margin-top:10px;" />
+      
+        @*<div class="am-collapse am-topbar-collapse right" id="doc-topbar-collapse">
+
+
+            <div class=" am-topbar-left am-form-inline am-topbar-right am-topbar" role="search">
+                <ul class="am-nav am-nav-pills am-topbar-nav hw-menu">
+                    <li class="hw-menu-active"><a href="index.html">首页</a></li>
+                    <li><a href="solutions.html">解决方案</a></li>
+                    <li><a href="product-show.html">产品展示 </a></li>
+                    <li><a href="customer-case.html">客户案例</a></li>
+                    <li><a href="service-center.html">服务中心 </a></li>
+                    <li><a href="news.html">新闻动态 </a></li>
+                    <li><a href="about-us.html">关于我们</a></li>
+                    <li><a href="recruit.html">招贤纳士 </a></li>
+                </ul>
+            </div>
+
+        </div>*@
+        <div id="doc-topbar-collapse" class="am-offcanvas" style="touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <div class="am-offcanvas-bar am-offcanvas-bar-flip am-offcanvas-bar-overlay am-offcanvas-bar-active" style="width:57%;background: white;">
+                <nav class="am-offcanvas-content">
+                    <a href="index.html" rel="nofollow"><span class="logo"></span></a>
+                    <div class="wap-nav"><i class="am-icon-home"></i> <a href="/Wap/Index" rel="nofollow">网站首页</a></div>
+                    <div class="wap-nav"><i class="am-icon-medkit"></i> <a href="/Wap/Medical" rel="nofollow">医疗器械资质</a></div>
+                    <div class="wap-nav"><i class="am-icon-deaf"></i> <a href="/Wap/FoodStuff" rel="nofollow">食品经营资质</a></div>
+                    <div class="wap-nav"><i class="am-icon-object-ungroup"></i> <a href="/Wap/NetCulture" rel="nofollow">网络文化经营许可证</a></div>
+                    <div class="wap-nav"><i class="am-icon-money"></i> <a href="/about.html" rel="nofollow">融资租赁资质</a></div>
+                    <div class="wap-nav"><i class="am-icon-building-o"></i> <a href="/Wap/Build" rel="nofollow">建筑施工资质</a></div>
+                    <div class="wap-nav"><i class="am-icon-user"></i> <a href="/contact.html" rel="nofollow">关于我们</a></div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<header class="m-header">
+    <section data-am-sticky class="am-show-md-up m-header-back">
+       
+
+    </section>
+
+</header>
+<section>
+
+    <div class="wap-headerimg-div">
+        <img src="~/Assert/WapImages/FoodStuff/banner.jpg" />
+    </div>
+</section>
+<div class="am-container wap-box">
+    <section>
+        <div class="wap-title-color"></div>
+        <div class="wap-title-div">
+            <img src="~/Assert/WapImages/FoodStuff/titlemark_left.png" width="32" />
+            <h1 style="    display: inline;">食品流通许可证</h1>
+            <img src="~/Assert/WapImages/FoodStuff/titlemark_right.png" width="32" />
+        </div>
+    </section>
+    <section>
+        <div class="am-u-md-12" >
+            <div class="m-font-title-color">
+                <h2 style=" display: inline;">预包装食品许可证办理</h2>
+                <img src="~/Assert/WapImages/FoodStuff/green3.png" style=" padding-bottom: 2rem;" />
+                <h2 style=" display: inline;">大必要条件</h2>
+            </div>
+            <div class="food-span-thread">
+                <img src="~/Assert/WapImages/FoodStuff/1.png"  width="35"/>
+                <span>营业执照复印件一份</span>
+            </div>
+            <div class="food-span-thread">
+                <img src="~/Assert/WapImages/FoodStuff/2.png" width="35" />
+                <span>负责人身份证明以及健康证明</span>
+            </div>
+            <div class="food-span-thread">
+                <img src="~/Assert/WapImages/FoodStuff/3.png" width="35" />
+                <span>经营场所使用证明材料</span>
+            </div>
+        </div>
+        <div class="wap-center-btn">
+            <button type="button" class="am-btn am-btn-warning am-radius">立即注册公司</button>
+        </div>
+    </section>
+
+    <section class="m-home-box">
+        <div class="am-container ">
+            <div class="am-g ">
+
+                <div class="am-u-sm-6" style="padding:0; width:49%">
+                    <div >
+                        <img src="~/Assert/WapImages/FoodStuff/冷冻类食品.jpg"  width="100%"/>
+                    </div>
+                    <div class="wap-center-btn" style=" top: 50%;width: 100%;   position: absolute;">
+                        <button type="button" class="am-btn m-btn-style food-btn-trance">在线咨询</button>
+                    </div>
+                </div>
+                <div class="am-u-sm-6" style="padding:0; width:49%">
+                    <div>
+                        <img src="~/Assert/WapImages/FoodStuff/批发类食品.jpg" width="100%" />
+                    </div>
+                    <div class="wap-center-btn" style=" top: 25%;width: 100%;   position: absolute;">
+                        <button type="button" class="am-btn m-btn-style food-btn-trance">在线咨询</button>
+                    </div>
+                    <div style="margin-top: 6px;">
+                        <img src="~/Assert/WapImages/FoodStuff/零售类食品.jpg" width="100%" />
+                    </div>
+                    <div class="wap-center-btn" style=" top: 76%;width: 100%;   position: absolute;">
+                        <button type="button" class="am-btn m-btn-style food-btn-trance">在线咨询</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section >
+        <div class="wap-title-color"></div>
+        <div class="wap-title-div">
+
+            <h1>真实案例</h1>
+        </div>
+        <div class="am-container ">
+            <div style="color:#626262; font-size:1.3em; ">
+                <p style="text-indent: 2em;">2016年9月24日,上海市食药监局执法人员在检查中发现，由林某经营的百货店货架上摆放68种无中文标签和无中文说明书的预包装食品，涉及婴幼儿配方奶粉、牛奶饮料、朱古力等品种，均为其从香港购进。现场检查发现，林某不能出示《食品流通许可证》。</p>
+                <p style="text-indent: 2em;">执法人员随即对林某作出如下处罚：没收无中文标签、无中文说明书的预包装食品；对无《食品流通许可证》销售无中文标签、中文说明书预包装食品的行为罚款13000元。</p>
+
+            </div>
+        </div>
+
+    </section>
+    <section>
+        <div class="wap-title-color"></div>
+        <div class="wap-title-div" style="border:none; margin-bottom:0;">
+            <img src="~/Assert/WapImages/FoodStuff/titlemark_left.png" width="32" />
+            <h1 style="    display: inline;">餐饮服务许可证</h1>
+            <img src="~/Assert/WapImages/FoodStuff/titlemark_right.png" width="32" />
+        </div>
+    </section>
+    <section>
+        <div style="background-image: url('../../Assert/WapImages/FoodStuff/banner_tk.jpg');    padding-top: 10px;">
+            <ul class="part-5-words2-ul-center mbt-img" >
+                <li class="am-u-sm-3">
+                    <img src="~/Assert/WapImages/FoodStuff/奶茶.png" />
+                </li>
+                <li class="am-u-sm-3">
+                    <img src="~/Assert/WapImages/FoodStuff/食堂.png" />
+                </li>
+                <li class="am-u-sm-3">
+                    <img src="~/Assert/WapImages/FoodStuff/饭店.png" />
+                </li>
+                <li class="am-u-sm-3">
+                    <img src="~/Assert/WapImages/FoodStuff/小吃.png" />
+                </li>
+                <div class="clear"></div>
+            </ul>
+            <ul class="part-5-words2-ul-center m-food-span">
+                <li class="am-u-sm-3">
+                    <span>我想开个奶茶饮料店</span>
+                </li>
+                <li class="am-u-sm-3">
+                    <span>我们公司要开一个自己的员工食堂</span>
+                </li>
+                <li class="am-u-sm-3">
+                    <span>我想开个普通饭店赚钱</span>
+                </li>
+                <li class="am-u-sm-3">
+                    <span>我想租个门店做特色小吃</span>
+                </li>
+                <div class="clear"></div>
+            </ul>
+        </div>
+    </section>
+
+    <section class="m-home-box">
+        <div style="background-color:#00A2EE; ">
+            <div class="am-container">
+               <div style="margin:10px 0;">
+                   <img src="~/Assert/WapImages/FoodStuff/小banner.png"  width="100%"/>
+               </div>
+                <div class="wap-center-btn">
+                    <button type="button" class="am-btn am-btn-warning am-radius">餐饮类型咨询</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="wap-title-color"></div>
+        <div class="wap-title-div">
+
+            <h1>办理条件</h1>
+        </div>
+        <ul class="wap-progress ul-slid-ul" data-am-scrollspy="{animation:'slide-left', delay: 100}">
+            <li data-am-scrollspy="{animation:'slide-left', delay: 44}" style="clear:both;">
+                <div class="wap-progress-img am-u-sm-2">
+                    <img src="~/Assert/WapImages/FoodStuff/01.png" />
+                </div>
+                <h2 class="wap-progress-title-2">有符合该类处理跟加工的场所</h2>
+            </li>
+            <li data-am-scrollspy="{animation:'slide-left', delay: 144}" style="clear:both;">
+                <div class="wap-progress-img am-u-sm-2">
+                    <img src="~/Assert/WapImages/FoodStuff/02.png" />
+                </div>
+                <h2 class="wap-progress-title-2">具有先关的经营设备设施</h2>
+            </li>
+            <li data-am-scrollspy="{animation:'slide-left', delay: 244}" style="clear:both;">
+                <div class="wap-progress-img am-u-sm-2">
+                    <img src="~/Assert/WapImages/FoodStuff/03.png" />
+                </div>
+                <h2 class="wap-progress-title-2">具有先关的食品安全管理人员</h2>
+            </li>
+            <li data-am-scrollspy="{animation:'slide-left', delay: 344}" style="clear:both;">
+                <div class="wap-progress-img am-u-sm-2">
+                    <img src="~/Assert/WapImages/FoodStuff/04.png" />
+                </div>
+                <h2 class="wap-progress-title-2">具有合理的布局和加工流程</h2>
+            </li>
+            <li data-am-scrollspy="{animation:'slide-left', delay:444}" style="clear:both;">
+                <div class="wap-progress-img am-u-sm-2">
+                    <img src="~/Assert/WapImages/FoodStuff/05.png" />
+                </div>
+                <h2 class="wap-progress-title-2">当地食药监管理局相关规定</h2>
+            </li>
+            <li data-am-scrollspy="{animation:'slide-left', delay:544}" style="clear:both;">
+                <div class="wap-progress-img am-u-sm-2">
+                    <img src="~/Assert/WapImages/FoodStuff/06.png" />
+                </div>
+                <h2 class="wap-progress-title-2">其他办理条件</h2>
+            </li>
+            <div class="clear"></div>
+        </ul>
+        <div class="wap-center-btn">
+            <button type="button" class="am-btn am-btn-warning am-radius">免费咨询</button>
+        </div>
+
+    </section>
+    <section>
+        <div class="wap-title-color"></div>
+        <div class="wap-title-div">
+            <img src="~/Assert/WapImages/FoodStuff/titlemark_left.png" width="32" />
+            <h1 style="    display: inline;">为什么选择我们</h1>
+            <img src="~/Assert/WapImages/FoodStuff/titlemark_right.png" width="32" />
+        </div>
+    </section>
+    <section>
+        
+        <ul class="part-5-words2-ul-center mbt-img">
+            <li class="am-u-sm-3">
+                <img src="~/Assert/WapImages/FoodStuff/品牌服务.png" />
+            </li>
+            <li class="am-u-sm-3">
+                <img src="~/Assert/WapImages/FoodStuff/快速服务.png" />
+            </li>
+            <li class="am-u-sm-3">
+                <img src="~/Assert/WapImages/FoodStuff/实力服务.png" />
+            </li>
+            <li class="am-u-sm-3">
+                <img src="~/Assert/WapImages/FoodStuff/放心服务.png" />
+            </li>
+            <div class="clear"></div>
+        </ul>
+        <ul class="part-5-words2-ul-center ">
+            <li class="am-u-sm-3">
+                <h2>品牌服务</h2>
+            </li>
+            <li class="am-u-sm-3">
+                <h2>快速服务</h2>
+            </li>
+            <li class="am-u-sm-3">
+                <h2>实力服务</h2>
+            </li>
+            <li class="am-u-sm-3">
+                <h2>放心服务</h2>
+            </li>
+            <div class="clear"></div>
+        </ul>
+        <ul class="part-5-words2-ul pa-txt-ul" style="text-align:center">
+            <li class="am-u-sm-3">
+                <span>电话3分钟内响应</span>
+            </li>
+            <li class="am-u-sm-3">
+                <span>热线3分钟内迅速回应</span>
+            </li>
+            <li class="am-u-sm-3">
+                <span>超过500家成功案例</span>
+            </li>
+            <li class="am-u-sm-3">
+                <span>所有客户信息完全保密</span>
+            </li>
+            <div class="clear"></div>
+        </ul>
+    </section>
+
+    <section>
+        <img src="~/Assert/WapImages/FoodStuff/banner_bottom.jpg" width="100%" />
+    </section>
+</div>
+

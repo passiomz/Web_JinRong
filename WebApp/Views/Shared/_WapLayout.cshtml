@@ -1,0 +1,94 @@
+﻿<!doctype html>
+<html class="no-js" lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>关于我们</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=0,user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <link rel="alternate icon" type="img/hengwang-1.png" href="img/hengwang-1.png">
+        @Styles.Render("~/Assert/assets/css/amazeui.min.css")
+    @Styles.Render("~/Content/wapstyle.css")
+   
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.js"></script>
+
+    <![endif]-->
+</head>
+<body>
+    @RenderBody()
+</body>
+<!--[if lt IE 9]>
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="views/IMJ2V2/js/polyfill/rem.min.js"></script>
+<script src="views/IMJ2V2/js/polyfill/respond.min.js"></script>
+<script src="views/IMJ2V2/js/amazeui.legacy.js"></script>
+<![endif]-->
+@Scripts.Render("~/Scripts/jquery.min.js")
+@Scripts.Render("~/Scripts/echo.min.js")
+<!--[if (gte IE 9)|!(IE)]><!-->
+@Scripts.Render("~/Scripts/amazeui.min.js")
+<!--<![endif]-->
+@Scripts.Render("~/Scripts/jquery.qrcode.min.js")
+@Scripts.Render("~/Scripts/amazeui.magnifier.min.js")
+<script>
+
+    function page() {
+
+        //通过navigator判断是否是移动设备
+        if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+            //在移动端
+            (function (doc, win) {
+                // html
+                var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize', recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    clientWidth = (clientWidth > 768) ? 768 : clientWidth; docEl.style.fontSize = 10 * (clientWidth / 375) + 'px';      //这个10可以根据自己使用的数据来调整
+                };
+                if (!doc.addEventListener) return; win.addEventListener(resizeEvt, recalc, false);
+                recalc();
+
+            })(document, window);
+            //移动端 文字适配
+        }
+        else {       //如果是pc端我们可以像微信公众号那样，设置最大宽度为740px
+            // window.location.href="prompt.html"
+            document.documentElement.style.maxWidth = 740 + 'px';
+            document.documentElement.style.margin = "0 auto"
+            //PC端
+        }
+    }
+    page();
+
+    $(".show-hide").click(function () {
+        $(".start-hide").show();
+        $(".hide-hide").show();
+        $(this).hide();
+    });
+    $(".hide-hide").click(function () {
+        $(".start-hide").hide();
+        $(".show-hide").show();
+        $(this).hide();
+    });
+    $(function () {
+        $(".zbg-img li").click(function () {
+            $(".zhiz_img").html($(this).find(".hide").html());
+            $(".zbg").show();
+            $(".zhiz").fadeIn(300)
+        });
+        $(".zbg,.zhiz").click(function () {
+            $(".zbg,.zhiz").hide()
+        });
+    });
+</script>
+
+</html>
+

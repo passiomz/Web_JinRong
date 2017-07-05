@@ -1,0 +1,401 @@
+﻿@{
+    Layout = "~/Views/Shared/_WapLayout.cshtml";
+}
+
+@*<header class="am-topbar header">
+    <div class="am-container-1">
+        <div class="left hw-logo">
+            <img class=" logo" src="img/HENGWANG.png"></img>
+            <img class="word" src="img/hw-word.png"></img>
+        </div>
+        <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only"
+                data-am-collapse="{target: '#doc-topbar-collapse'}">
+            <span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span>
+        </button>
+        <div class="am-collapse am-topbar-collapse right" id="doc-topbar-collapse">
+
+            <div class=" am-topbar-left am-form-inline am-topbar-right" role="search">
+                <ul class="am-nav am-nav-pills am-topbar-nav hw-menu">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="solutions.html">解决方案</a></li>
+                    <li><a href="product-show.html">产品展示 </a></li>
+                    <li><a href="customer-case.html">客户案例</a></li>
+                    <li><a href="service-center.html">服务中心 </a></li>
+                    <li><a href="news.html">新闻动态 </a></li>
+                    <li class="hw-menu-active"><a href="about-us.html">关于我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>*@
+
+<header class=" header">
+    <div class="am-container-1">
+        <div class="left hw-logo">
+            <img src="~/Assert/WapImages/register/tel.png" style=" vertical-align:top; margin-top:10px;"  />
+        </div>
+        <img src="~/Assert/WapImages/register/tel.png" class="am-topbar-toggle" style=" vertical-align:top;margin-top:10px;" />
+    </div>
+</header>
+<header class=" header2">
+    <div class="am-container-1">
+        <div class="left hw-logo">
+            <img src="~/Assert/WapImages/register/btn_home.png" width="32" style=" vertical-align:top; margin-top:10px;" />
+        </div>
+        <img src="~/Assert/WapImages/register/btn_menu.png" class="am-topbar-toggle" data-am-offcanvas="{target: '#doc-topbar-collapse'}" width="32" style=" vertical-align:top;margin-top:10px;" />
+      
+        @*<div class="am-collapse am-topbar-collapse right" id="doc-topbar-collapse">
+
+
+            <div class=" am-topbar-left am-form-inline am-topbar-right am-topbar" role="search">
+                <ul class="am-nav am-nav-pills am-topbar-nav hw-menu">
+                    <li class="hw-menu-active"><a href="index.html">首页</a></li>
+                    <li><a href="solutions.html">解决方案</a></li>
+                    <li><a href="product-show.html">产品展示 </a></li>
+                    <li><a href="customer-case.html">客户案例</a></li>
+                    <li><a href="service-center.html">服务中心 </a></li>
+                    <li><a href="news.html">新闻动态 </a></li>
+                    <li><a href="about-us.html">关于我们</a></li>
+                    <li><a href="recruit.html">招贤纳士 </a></li>
+                </ul>
+            </div>
+
+        </div>*@
+        <div id="doc-topbar-collapse" class="am-offcanvas" style="touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <div class="am-offcanvas-bar am-offcanvas-bar-flip am-offcanvas-bar-overlay am-offcanvas-bar-active" style="width:57%;background: white;">
+                <nav class="am-offcanvas-content">
+                    <a href="index.html" rel="nofollow"><span class="logo"></span></a>
+                    <div class="wap-nav"><i class="am-icon-home"></i> <a href="/Wap/Index" rel="nofollow">网站首页</a></div>
+                    <div class="wap-nav"><i class="am-icon-medkit"></i> <a href="/Wap/Medical" rel="nofollow">医疗器械资质</a></div>
+                    <div class="wap-nav"><i class="am-icon-deaf"></i> <a href="/Wap/FoodStuff" rel="nofollow">食品经营资质</a></div>
+                    <div class="wap-nav"><i class="am-icon-object-ungroup"></i> <a href="/Wap/NetCulture" rel="nofollow">网络文化经营许可证</a></div>
+                    <div class="wap-nav"><i class="am-icon-money"></i> <a href="/about.html" rel="nofollow">融资租赁资质</a></div>
+                    <div class="wap-nav"><i class="am-icon-building-o"></i> <a href="/Wap/Build" rel="nofollow">建筑施工资质</a></div>
+                    <div class="wap-nav"><i class="am-icon-user"></i> <a href="/contact.html" rel="nofollow">关于我们</a></div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<header class="m-header">
+    <section data-am-sticky class="am-show-md-up m-header-back">
+       
+
+    </section>
+
+</header>
+<section>
+
+    <div class="wap-headerimg-div">
+        <img src="~/Assert/WapImages/netculture/banner.jpg" />
+    </div>
+</section>
+<div class="am-container wap-box">
+    <section>
+        <div class="wap-title-div">
+            <img src="~/Assert/WapImages/FoodStuff/titlemark_left.png" width="32" />
+            <h1 style="    display: inline;">办理网络文化经营许可证条件</h1>
+            <img src="~/Assert/WapImages/FoodStuff/titlemark_right.png" width="32" />
+        </div>
+    </section>
+    <section>
+        <div>
+            <ul class="am-avg-sm-3 wap-net-deal">
+                <li>
+                   <div class="net-deal-div">
+                       <img src="~/Assert/WapImages/netculture/注册资金.jpg" width="100%"/>
+                       <div class="net-deal-text">纯内资公司注册资金最低100万</div>
+                   </div>
+                    
+                </li>
+                <li>
+                    <div class="net-deal-div">
+                        <img src="~/Assert/WapImages/netculture/技术服务.jpg" width="100%" />
+                        <div class="net-deal-text">公司经营范围内必须有计算机科技领域四技术服务</div>
+                    </div>
+
+                </li>
+                <li>
+                    <div class="net-deal-div">
+                        <img src="~/Assert/WapImages/netculture/网站域名.jpg" width="100%" />
+                        <div class="net-deal-text">网站跟域名</div>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        
+        <div class="wap-center-btn" style="margin-top:3em;">
+            <button type="button" class="am-btn am-btn-warning am-radius">咨询全部材料</button>
+        </div>
+    </section>
+
+   
+    <section class="m-home-box">
+        <div >
+
+
+            <img src="~/Assert/WapImages/netculture/banner_1.jpg"  width="100%"/>
+        </div>
+    </section>
+    <section>
+        <div class="wap-title-div" style="border:none; margin-bottom:0; margin-top:1em;">
+            <img src="~/Assert/WapImages/FoodStuff/titlemark_left.png" width="32" />
+            <h1 style="display:inline;">以下业务也需要网络经营许可证</h1>
+            <img src="~/Assert/WapImages/FoodStuff/titlemark_right.png" width="32" />
+        </div>
+    </section>
+
+    <section class="m-home-box">
+        <div class="am-container wap-net-need">
+            <div class="am-g ">
+
+                <div class="am-u-sm-6" style="padding:0; width:49%">
+                    <div >
+                        <img src="~/Assert/WapImages/netculture/游戏运营.jpg"  width="100%"/>
+                    </div>
+                    <div class="wap-center-btn" style="top: 50%;width: 100%;   position: absolute;">
+                        <span>游戏运营、虚拟货币发行</span>
+                    </div>
+                </div>
+                <div class="am-u-sm-6" style="padding:0; width:49%">
+                    <div>
+                        <img src="~/Assert/WapImages/netculture/网络游戏.jpg" width="100%" />
+                    </div>
+                    <div class="wap-center-btn" style="top: 28%;width: 100%;   position: absolute;">
+                        <span >网络游戏虚拟货币交易</span>
+                    </div>
+                    <div style="margin-top: 0.4em;">
+                        <img src="~/Assert/WapImages/netculture/直播.jpg" width="100%" />
+                    </div>
+                    <div class="wap-center-btn" style="top: 79%;width: 100%;   position: absolute;">
+                        <span style="margin-top: 30%;">直播平台类</span>
+                    </div>
+                </div>
+            </div>
+            <div class="am-g " style="margin-top: 0.5em;">
+
+                <div class="am-u-sm-6" style="padding:0; width:49%">
+                    <div>
+                        <img src="~/Assert/WapImages/netculture/动漫.jpg"  width="100%" />
+                    </div>
+                    <div class="wap-center-btn" style="top: 56%;width: 100%;   position: absolute;">
+                        <span>经营网络动漫产品</span>
+                    </div>
+                </div>
+                <div class="am-u-sm-6" style="padding:0; width:49%">
+                    <div>
+                        <img src="~/Assert/WapImages/netculture/音乐.jpg" width="100%" />
+                    </div>
+                    <div class="wap-center-btn" style="top: 56%;width: 100%;   position: absolute;">
+                        <span>经营网络音乐产品</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+
+        <div class="wap-center-btn" style="margin-top:1em;">
+            <button type="button" class="am-btn am-btn-warning am-radius">我要咨询</button>
+        </div>
+    </section>
+ 
+
+    <section>
+        <div class="wap-title-div" style="border:none; margin-bottom:0;">
+            <img src="~/Assert/WapImages/FoodStuff/titlemark_left.png" width="32" />
+            <h1 style="display:inline;">我们的服务流程</h1>
+            <img src="~/Assert/WapImages/FoodStuff/titlemark_right.png" width="32" />
+        </div>
+    </section>
+    <section>
+
+        <div>
+
+            <img src="~/Assert/WapImages/netculture/流程图.png" width="100%" />
+        </div>
+    </section>
+    <section>
+
+        <div class="wap-center-btn" style="margin-top:1em;">
+            <button type="button" class="am-btn am-btn-warning am-radius">我要办理</button>
+        </div>
+    </section>
+    <section>
+        <div class="wap-title-div" style="border:none; margin-bottom:0;">
+            <img src="~/Assert/WapImages/FoodStuff/titlemark_left.png" width="32" />
+            <h1 style="display:inline;">客户需要提供什么</h1>
+            <img src="~/Assert/WapImages/FoodStuff/titlemark_right.png" width="32" />
+        </div>
+    </section>
+    <section >
+        <div class="am-g  net-custem-need">
+               <div class="am-u-sm-1">
+                   <img src="~/Assert/WapImages/netculture/01.png" width="30"/>
+               </div>
+               <div  class="am-u-sm-11">
+                   <span> 公司章程调档件（需加盖工商局红章，3个月内调取的有效）</span>
+               </div>
+        </div>
+        <div class="am-g  net-custem-need">
+            <div class="am-u-sm-1">
+                <img src="~/Assert/WapImages/netculture/02.png" width="30" />
+            </div>
+            <div class="am-u-sm-11">
+                <span>执照副本原件、法人、自然人股东身份证原件（当场核验）</span>
+            </div>
+        </div>
+        <div class="am-g  net-custem-need">
+            <div class="am-u-sm-1">
+                <img src="~/Assert/WapImages/netculture/03.png" width="30" />
+            </div>
+            <div class="am-u-sm-11">
+                <span>控股企业的相关资料（股东若均为自然人则无需提供）</span>
+            </div>
+        </div>
+        <div class="am-g  net-custem-need">
+            <div class="am-u-sm-1">
+                <img src="~/Assert/WapImages/netculture/04.png" width="30" />
+            </div>
+            <div class="am-u-sm-11">
+                <span>与拟申请业务内容相对应的域名、业务网站</span>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="wap-center-btn" style="margin-top:1em;">
+            <button type="button" class="am-btn am-btn-warning am-radius">我要咨询</button>
+        </div>
+    </section>
+    <section>
+        <div class="wap-title-color"></div>
+        <div class="wap-title-div" style="border:none; margin-bottom:0;">
+            <img src="~/Assert/WapImages/FoodStuff/titlemark_left.png" width="32" />
+            <h1 style="    display: inline;">我们提供什么服务</h1>
+            <img src="~/Assert/WapImages/FoodStuff/titlemark_right.png" width="32" />
+        </div>
+    </section>
+    <section>
+        <div >
+            <ul class="am-avg-sm-2" >
+                <li class="wap-net-provide">
+                   <div >
+                       <div class="wap-net-provide-img">
+                           <img src="~/Assert/WapImages/netculture/方案制定.png" width="22"/>
+                       </div>
+                       <div class="wap-net-provide-txt">
+                           <div class="povide-title">
+                               <span>申请方案制定</span>
+                           </div>
+                           <div class="povide-span">
+                               <span>梳理申请条件制定申请方案</span>
+                           </div>
+                       </div>
+                   </div>
+                </li>
+                <li class="wap-net-provide" style="border-left:1px dashed #ccc;">
+                    <div >
+                        <div class="wap-net-provide-img">
+                            <img src="~/Assert/WapImages/netculture/材料撰写.png" width="22" />
+                        </div>
+                        <div class="wap-net-provide-txt">
+                            <div class="povide-title">
+                                <span>申请材料撰写</span>
+                            </div>
+                            <div class="povide-span">
+                                <span>根据公司业务撰写业务报告</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+               
+            </ul>
+            <ul class="am-avg-sm-2" style="clear:both;">
+                <li class="wap-net-provide" style="border-bottom:1px solid #ccc;">
+                    <div>
+                        <div class="wap-net-provide-img">
+                            <img src="~/Assert/WapImages/netculture/服务体系.png" width="22" />
+                        </div>
+                        <div class="wap-net-provide-txt">
+                            <div class="povide-title">
+                                <span>NO.1服务体系</span>
+                            </div>
+                            <div class="povide-span">
+                                <span>一对一服务，申请材料无缝对接</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="wap-net-provide" style="border-left:1px dashed #ccc;border-bottom:1px solid #ccc;">
+                    <div>
+                        <div class="wap-net-provide-img">
+                            <img src="~/Assert/WapImages/netculture/独家承诺.png" width="22" />
+                        </div>
+                        <div class="wap-net-provide-txt">
+                            <div class="povide-title">
+                                <span>唯一独家承诺</span>
+                            </div>
+                            <div class="povide-span">
+                                <span>不通过全额退款</span>
+
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section>
+
+        <div class="wap-center-btn" style="margin-top:1em;">
+            <button type="button" class="am-btn am-btn-warning am-radius">点击咨询</button>
+        </div>
+    </section>
+    
+   
+    <section>
+        <div class="wap-title-div">
+            <img src="~/Assert/WapImages/FoodStuff/titlemark_left.png" width="32" />
+            <h1 style="    display: inline;">为什么选择我们</h1>
+            <img src="~/Assert/WapImages/FoodStuff/titlemark_right.png" width="32" />
+        </div>
+    </section>
+    <section>
+        
+        <ul class="part-5-words2-ul-center mbt-img">
+            <li class="am-u-sm-3">
+                <img src="~/Assert/WapImages/netculture/专业.png" />
+            </li>
+            <li class="am-u-sm-3">
+                <img src="~/Assert/WapImages/netculture/可靠.png" />
+            </li>
+            <li class="am-u-sm-3">
+                <img src="~/Assert/WapImages/netculture/高效.png" />
+            </li>
+            <li class="am-u-sm-3">
+                <img src="~/Assert/WapImages/netculture/放心.png" />
+            </li>
+            <div class="clear"></div>
+        </ul>
+        <ul class="part-5-words2-ul-center ">
+            <li class="am-u-sm-3">
+                <h2>专业</h2>
+            </li>
+            <li class="am-u-sm-3">
+                <h2>可靠</h2>
+            </li>
+            <li class="am-u-sm-3">
+                <h2>高效</h2>
+            </li>
+            <li class="am-u-sm-3">
+                <h2>放心</h2>
+            </li>
+            <div class="clear"></div>
+        </ul>
+    </section>
+
+</div>
+

@@ -1,0 +1,355 @@
+﻿@{
+    Layout = "~/Views/Shared/_WapLayout.cshtml";
+}
+
+@*<header class="am-topbar header">
+    <div class="am-container-1">
+        <div class="left hw-logo">
+            <img class=" logo" src="img/HENGWANG.png"></img>
+            <img class="word" src="img/hw-word.png"></img>
+        </div>
+        <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only"
+                data-am-collapse="{target: '#doc-topbar-collapse'}">
+            <span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span>
+        </button>
+        <div class="am-collapse am-topbar-collapse right" id="doc-topbar-collapse">
+
+            <div class=" am-topbar-left am-form-inline am-topbar-right" role="search">
+                <ul class="am-nav am-nav-pills am-topbar-nav hw-menu">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="solutions.html">解决方案</a></li>
+                    <li><a href="product-show.html">产品展示 </a></li>
+                    <li><a href="customer-case.html">客户案例</a></li>
+                    <li><a href="service-center.html">服务中心 </a></li>
+                    <li><a href="news.html">新闻动态 </a></li>
+                    <li class="hw-menu-active"><a href="about-us.html">关于我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>*@
+
+<header class=" header">
+    <div class="am-container-1">
+        <div class="left hw-logo">
+            <img src="~/Assert/WapImages/register/tel.png" style=" vertical-align:top; margin-top:10px;"  />
+        </div>
+        <img src="~/Assert/WapImages/register/tel.png" class="am-topbar-toggle" style=" vertical-align:top;margin-top:10px;" />
+    </div>
+</header>
+<header class=" header2">
+    <div class="am-container-1">
+        <div class="left hw-logo">
+            <img src="~/Assert/WapImages/register/btn_home.png" width="32" style=" vertical-align:top; margin-top:10px;" />
+        </div>
+        <img src="~/Assert/WapImages/register/btn_menu.png" class="am-topbar-toggle" data-am-offcanvas="{target: '#doc-topbar-collapse'}" width="32" style=" vertical-align:top;margin-top:10px;" />
+      
+        @*<div class="am-collapse am-topbar-collapse right" id="doc-topbar-collapse">
+
+
+            <div class=" am-topbar-left am-form-inline am-topbar-right am-topbar" role="search">
+                <ul class="am-nav am-nav-pills am-topbar-nav hw-menu">
+                    <li class="hw-menu-active"><a href="index.html">首页</a></li>
+                    <li><a href="solutions.html">解决方案</a></li>
+                    <li><a href="product-show.html">产品展示 </a></li>
+                    <li><a href="customer-case.html">客户案例</a></li>
+                    <li><a href="service-center.html">服务中心 </a></li>
+                    <li><a href="news.html">新闻动态 </a></li>
+                    <li><a href="about-us.html">关于我们</a></li>
+                    <li><a href="recruit.html">招贤纳士 </a></li>
+                </ul>
+            </div>
+
+        </div>*@
+        <div id="doc-topbar-collapse" class="am-offcanvas" style="touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+            <div class="am-offcanvas-bar am-offcanvas-bar-flip am-offcanvas-bar-overlay am-offcanvas-bar-active" style="width:57%;background: white;">
+                <nav class="am-offcanvas-content">
+                    <a href="index.html" rel="nofollow"><span class="logo"></span></a>
+                    <div class="wap-nav"><i class="am-icon-home"></i> <a href="/Wap/Index" rel="nofollow">网站首页</a></div>
+                    <div class="wap-nav"><i class="am-icon-medkit"></i> <a href="/Wap/Medical" rel="nofollow">医疗器械资质</a></div>
+                    <div class="wap-nav"><i class="am-icon-deaf"></i> <a href="/Wap/FoodStuff" rel="nofollow">食品经营资质</a></div>
+                    <div class="wap-nav"><i class="am-icon-object-ungroup"></i> <a href="/Wap/NetCulture" rel="nofollow">网络文化经营许可证</a></div>
+                    <div class="wap-nav"><i class="am-icon-money"></i> <a href="/about.html" rel="nofollow">融资租赁资质</a></div>
+                    <div class="wap-nav"><i class="am-icon-building-o"></i> <a href="/Wap/Build" rel="nofollow">建筑施工资质</a></div>
+                    <div class="wap-nav"><i class="am-icon-user"></i> <a href="/contact.html" rel="nofollow">关于我们</a></div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<header class="m-header">
+    <section data-am-sticky class="am-show-md-up m-header-back">
+       
+
+    </section>
+
+</header>
+<section>
+
+    <div class="wap-headerimg-div">
+
+        <img src="~/Assert/WapImages/register/banner.jpg" />
+    </div>
+</section>
+<div class="am-container wap-box">
+    <section>
+        <div class="wap-title-color"></div>
+        <div class="wap-title-div">
+            <img src="~/Assert/WapImages/FoodStuff/titlemark_left.png" width="32" />
+            <h1 style="    display: inline;">注册公司范围</h1>
+            <img src="~/Assert/WapImages/FoodStuff/titlemark_right.png" width="32" />
+        </div>
+    </section>
+    <section>
+        <ul class="part-5-words2-ul">
+            <li class="am-u-sm-3"><span>内资注册</span></li>
+            <li class="am-u-sm-3"><span>外资注册</span></li>
+            <li class="am-u-sm-3"><span>自贸区注册</span></li>
+            <li class="am-u-sm-3"><span>分公司注册</span></li>
+            <li class="am-u-sm-3"><span>香港公司注册</span></li>
+            <li class="am-u-sm-3"><span>离岸公司注册</span></li>
+            <li class="am-u-sm-3"><span>特殊行业注册</span></li>
+            <li class="am-u-sm-3"><span>集团公司注册</span></li>
+            <div class="clear"></div>
+        </ul>
+    </section>
+    <section>
+        <div class="wap-title-color"></div>
+        <div class="wap-title-div">
+            <img src="~/Assert/WapImages/FoodStuff/titlemark_left.png" width="32" />
+            <h1 style="    display: inline;">注册公司需准备的文件</h1>
+            <img src="~/Assert/WapImages/FoodStuff/titlemark_right.png" width="32" />
+        </div>
+    </section>
+    <section>
+        <ul class="part-5-words2-ul-center">
+            <li class="am-u-sm-4">
+                <img src="~/Assert/WapImages/register/公司名称.png" />
+            </li>
+            <li class="am-u-sm-4">
+                <img src="~/Assert/WapImages/register/身份证.png" />
+            </li>
+            <li class="am-u-sm-4">
+                <img src="~/Assert/WapImages/register/注册申请.png" />
+           </li>
+                <div class="clear"></div>
+</ul>
+        <ul class="part-5-words2-ul-center">
+            <li class="am-u-sm-4">
+                <span>公司名称</span>
+            </li>
+            <li class="am-u-sm-4">
+                <span>法人/股东身份证</span>
+            </li>
+            <li class="am-u-sm-4">
+                <span>公司注册申请</span>
+            </li>
+            <div class="clear"></div>
+        </ul>
+    </section>
+    <section>
+        <div class="wap-title-color"></div>
+        <div class="wap-title-div">
+            <img src="~/Assert/WapImages/FoodStuff/titlemark_left.png" width="32" />
+            <h1 style="    display: inline;">注册办理流程</h1>
+            <img src="~/Assert/WapImages/FoodStuff/titlemark_right.png" width="32" />
+        </div>
+    </section>
+    <section>
+        <ul class="wap-progress ul-slid-ul" data-am-scrollspy="{animation:'slide-left', delay: 100}">
+            <li data-am-scrollspy="{animation:'slide-left', delay: 44}" style="clear:both;">
+                <div class="wap-progress-img am-u-sm-2">
+                    <img src="~/Assert/WapImages/register/01.png" />
+                </div>
+
+                <h2 class="wap-progress-title">核名</h2>
+                <h2 class="wap-progress-title-2">（3-5个工作日）</h2>
+            </li>
+            <li data-am-scrollspy="{animation:'slide-left', delay: 144}" style="clear:both;">
+                <div class="wap-progress-img am-u-sm-2">
+                    <img src="~/Assert/WapImages/register/02.png" />
+                </div>
+                <h2 class="wap-progress-title">网提三证信息</h2>
+                <h2 class="wap-progress-title-2">（3-5个工作日）</h2>
+            </li>
+            <li data-am-scrollspy="{animation:'slide-left', delay: 244}" style="clear:both;">
+                <div class="wap-progress-img am-u-sm-2">
+                    <img src="~/Assert/WapImages/register/03.png" />
+                </div>
+                <h2 class="wap-progress-title">预约交件</h2>
+                <h2 class="wap-progress-title-2">（5-10个工作日）</h2>
+            </li>
+            <li data-am-scrollspy="{animation:'slide-left', delay: 344}" style="clear:both;">
+                <div class="wap-progress-img am-u-sm-2">
+                    <img src="~/Assert/WapImages/register/04.png" />
+                </div>
+                <h2 class="wap-progress-title">出执照</h2>
+                <h2 class="wap-progress-title-2">（5-7个工作日）</h2>
+            </li>
+            <li data-am-scrollspy="{animation:'slide-left', delay:444}" style="clear:both;">
+                <div class="wap-progress-img am-u-sm-2">
+                    <img src="~/Assert/WapImages/register/05.png" />
+                </div>
+                <h2 class="wap-progress-title">刻章</h2>
+                <h2 class="wap-progress-title-2">（1-2个工作日）</h2>
+            </li>
+            <div class="clear"></div>
+        </ul>
+        <div class="wap-center-btn">
+            <button type="button" class="am-btn am-btn-warning am-radius">立即注册公司</button>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="wap-title-color"></div>
+        <div class="wap-title-div">
+            <img src="~/Assert/WapImages/FoodStuff/titlemark_left.png" width="32" />
+            <h1 style="    display: inline;">公司服务流程</h1>
+            <img src="~/Assert/WapImages/FoodStuff/titlemark_right.png" width="32" />
+        </div>
+    </section>
+    <section>
+        <ul class="part-5-words2-ul-center mbt-img">
+            <li class="am-u-sm-4">
+                <img src="~/Assert/WapImages/register/售前咨询.png" />
+            </li>
+            <li class="am-u-sm-4">
+                <img src="~/Assert/WapImages/register/专人服务.png" />
+            </li>
+            <li class="am-u-sm-4">
+                <img src="~/Assert/WapImages/register/顺丰送达.png" />
+            </li>
+            <div class="clear"></div>
+        </ul>
+        <ul class="part-5-words2-ul-center">
+            <li class="am-u-sm-4">
+                <h2>售前咨询</h2>
+            </li>
+            <li class="am-u-sm-4">
+                <h2>专人1:1服务</h2>
+            </li>
+            <li class="am-u-sm-4">
+                <h2>顺丰送达</h2>
+            </li>
+            <div class="clear"></div>
+        </ul>
+        <ul class="part-5-words2-ul pa-txt-ul">
+            <li class="am-u-sm-4">
+                <span>电话三分钟响应</span>
+            </li>
+            <li class="am-u-sm-4">
+                <span>进度专员+材料专员+外勤专员为您办理相关事物</span>
+            </li>
+            <li class="am-u-sm-4">
+                <span>办理完成后所有材料精心包装</span>
+            </li>
+            <div class="clear"></div>
+        </ul>
+        <div class="wap-center-btn">
+            <button type="button" class="am-btn am-btn-warning am-radius">服务热线</button>
+        </div>
+    </section>
+    <section>
+        <div class="wap-title-color"></div>
+        <div class="wap-about">
+            <h1 class="wap-about-title">关于我们</h1>
+            <p class="wap-about-text">关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们关于我们</p>
+            <div class="wap-center-btn">
+                <button type="button" class="am-btn am-btn-warning am-radius">服务热线</button>
+            </div>
+        </div>
+
+    </section>
+    <section>
+        <div class="wap-title-color"></div>
+        <div class="wap-title-div">
+            <img src="~/Assert/WapImages/FoodStuff/titlemark_left.png" width="32" />
+            <h1 style="    display: inline;">工商服务我们更专业</h1>
+            <img src="~/Assert/WapImages/FoodStuff/titlemark_right.png" width="32" />
+        </div>
+    </section>
+    <section>
+        <ul class="part-5-words2-ul-center mbt-img">
+            <li class="am-u-sm-3">
+                <img src="~/Assert/WapImages/register/精英团队.png" />
+            </li>
+            <li class="am-u-sm-3">
+                <img src="~/Assert/WapImages/register/行业标杆.png" />
+            </li>
+            <li class="am-u-sm-3">
+                <img src="~/Assert/WapImages/register/服务可视.png" />
+            </li>
+            <li class="am-u-sm-3">
+                <img src="~/Assert/WapImages/register/安全保密.png" />
+            </li>
+            <div class="clear"></div>
+        </ul>
+        <ul class="part-5-words2-ul-center ">
+            <li class="am-u-sm-3">
+                <h2>精英团队</h2>
+            </li>
+            <li class="am-u-sm-3">
+                <h2>行业标杆</h2>
+            </li>
+            <li class="am-u-sm-3">
+                <h2>服务可视</h2>
+            </li>
+            <li class="am-u-sm-3">
+                <h2>安全保密</h2>
+            </li>
+            <div class="clear"></div>
+        </ul>
+        <ul class="part-5-words2-ul pa-txt-ul">
+            <li class="am-u-sm-3">
+                <span>专业服务，价格透明，品质保证</span>
+            </li>
+            <li class="am-u-sm-3">
+                <span>专业高效权威，服务经验沉淀</span>
+            </li>
+            <li class="am-u-sm-3">
+                <span>服务全程可视化，可随时在线跟踪</span>
+            </li>
+            <li class="am-u-sm-3">
+                <span>保证信息免遭泄露，安全放心</span>
+            </li>
+            <div class="clear"></div>
+        </ul>
+    </section>
+    <section>
+        <div class="wap-title-color"></div>
+        <div class="wap-title-div">
+            <img src="~/Assert/WapImages/FoodStuff/titlemark_left.png" width="32" />
+            <h1 style="    display: inline;">我们的实力</h1>
+            <img src="~/Assert/WapImages/FoodStuff/titlemark_right.png" width="32" />
+        </div>
+    </section>
+    <section>
+        <ul class="part-5-words2-ul-center mbt-img wap-our zbg-img">
+            <li class="am-u-sm-3">
+                <img src="~/Assert/Images/register/shi/1.jpg" />
+                <div class="hide"><img src="~/Assert/Images/register/shi/1.jpg"></div>
+            </li>
+            <li class="am-u-sm-3">
+                <img src="~/Assert/Images/register/shi/2.jpg" />
+                <div class="hide"><img src="~/Assert/Images/register/shi/2.jpg"></div>
+            </li>
+            <li class="am-u-sm-3">
+                <img src="~/Assert/Images/register/shi/3.jpg" />
+                <div class="hide"><img src="~/Assert/Images/register/shi/3.jpg"></div>
+            </li>
+            <li class="am-u-sm-3">
+                <img src="~/Assert/Images/register/shi/4.jpg" />
+                <div class="hide"><img src="~/Assert/Images/register/shi/4.jpg"></div>
+            </li>
+            <div class="clear"></div>
+        </ul>
+    </section>
+</div>
+
+<div class="zbg" style="display: none;"></div>
+
+<div class="zhiz" style="display: none;">
+    <div class="zhiz_img"></div>
+    <img class="claose" src="~/Assert/WapImages/mke_close.png" />
+</div>
