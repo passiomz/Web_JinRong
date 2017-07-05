@@ -300,6 +300,12 @@
     <Content Include="Assert\Images\register\shi\2.jpg" />
     <Content Include="Assert\Images\register\shi\3.jpg" />
     <Content Include="Assert\Images\register\shi\4.jpg" />
+    <Content Include="Assert\Images\rongzi\1.jpg" />
+    <Content Include="Assert\Images\rongzi\2.jpg" />
+    <Content Include="Assert\Images\rongzi\3.jpg" />
+    <Content Include="Assert\Images\rongzi\4.jpg" />
+    <Content Include="Assert\Images\rongzi\5.jpg" />
+    <Content Include="Assert\Images\rongzi\6.jpg" />
     <Content Include="Assert\Images\rongzi\banner.jpg" />
     <Content Include="Assert\Images\rongzi\专业专注.png" />
     <Content Include="Assert\Images\rongzi\互联网金融.png" />

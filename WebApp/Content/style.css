@@ -1063,6 +1063,8 @@ m-about{
        height: 421px;
     z-index: 1;
 }
+
+
 /** 网站欣赏列表 **/
 .m-web-list figure {
   background: #fff;
@@ -1251,6 +1253,34 @@ m-about{
     margin-top:50px;
         width: 100%;
 }
+.fi-shi ul{
+    list-style: none;
+}
+.fi-shi ul li{
+    position: relative;
+    float: left;
+    text-align:center
+
+}
+.fi-shi .big-div{
+    display: none;
+}
+.fi-shi .big-div-left{
+    position: absolute;
+    bottom: 0;
+    left: 270px;
+    width: 320px;
+       height: 421px;
+    z-index: 1;
+}
+.fi-shi .big-div-right{
+    position: absolute;
+    bottom: 0;
+    right: 270px;
+    width: 320px;
+       height: 421px;
+    z-index: 1;
+}
 .fi-fan-left-img{
     position:absolute;
     text-align:center;
@@ -1277,10 +1307,67 @@ m-about{
     margin-top:15px;
     width: 100%;
 }
+.fi-ichoose-top .am-u-md-6{
+    margin:7px 0;
+    padding:15px 30px;
+}
+.fi-ichoose-top .am-u-md-4{
+    padding:15px 30px;
+}
+.am-u-md-6 .fi-ichoose-icon{
+    width:8%;
+    margin-right:3%;
+    float:left;
+}
+ .am-u-md-6 .fi-ichoose-text{
+    width:89%;
+    float:right;
+}
+ .am-u-md-4 .fi-ichoose-icon{
+    width:14%;
+    margin-right:3%;
+    float:left;
+}
+ .am-u-md-4 .fi-ichoose-text{
+    width:83%;
+    float:right;
+}
+.fi-ichoose h1{
+    font-size:25px;
+   margin-bottom:0.3rem;
+}
+.fi-ichoose span{
+    font-size:20px;
+    color:#818181;
+}
 .food-span-thread{
         padding: 8px 0;
 
 }
+.fi-talk .am-u-md-9 {
+    padding-top:20px;
+    padding-right:80px;
+}
+.fi-talk .am-u-md-9 img{
+    width:60px;
+}
+.fi-zhizhao li{
+    padding:0 10px;
+}
+.fi-talk span{
+    color:white;
+    font-size:18px;
+}
+.fi-talk-left span{
+    color:#FFB300;
+}
+.fi-talk-left{
+    float:left;
+}
+.fi-talk-right{
+       float:right;
+}
+
 .food-span-thread span{
        font-size: 18px;
        color:#626262;
